@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 Tailwindcss</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/5ce2613b57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <!-- navbar -->
+    <nav class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center">
+            <img src="images\Screenshot 2025-01-25 145051.png" alt="Startup Logo" class="w-6 h-6">
+            <span class="text-xl font-bold ml-2">Startup</span>
+          </div>
+
+          <div class="hidden md:flex space-x-6">
+            <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
+            <a href="#payment" class="text-gray-700 hover:text-blue-600">Payment</a>
+            <a href="#features" class="text-gray-700 hover:text-blue-600">Features</a>
+          </div>
+        </div>
+      
+        <!-- navbar buttons -->
+        <div class="flex items-center space-x-4">
+          <button id="login-button" class="text-gray-700 hover:text-blue-600"> Login</button>
+          <button id="signup-button" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Sign Up </button>
+        </div>
+    </header>
+    
+</body>
+</html>
